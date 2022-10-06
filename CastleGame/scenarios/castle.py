@@ -1,5 +1,5 @@
 import time
-from game.game import games
+from CastleGame.game.game import games
 from random import Random
 
 class castle(games, Random):

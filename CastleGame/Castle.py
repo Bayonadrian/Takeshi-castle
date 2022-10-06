@@ -3,9 +3,9 @@ import click
 from click_help_colors import HelpColorsGroup
 from rich.console import Console
 from halo import Halo
-from scenarios import start, castle
-from game.persecutor import persecutor
-from game.game import games
+from CastleGame.scenarios import start, castle
+from CastleGame.game.persecutor import persecutor
+from CastleGame.game.game import games
 
 
 @click.group(cls= HelpColorsGroup, help_headers_color= "black", help_options_color= "blue")
