@@ -1,6 +1,6 @@
 import time
 from random import Random
-from CastleGame.game.doors import door
+from game.doors import door
 
 class games(Random):
 
